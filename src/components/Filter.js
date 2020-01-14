@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Search = props => {
+const Filter = props => {
   const handleInputSearch = (event) => {
     props.handleInputSearch(event.target.value)
   }
@@ -10,4 +10,4 @@ const Search = props => {
   </form>
 }
 
-export default Search;
+export default Filter;
