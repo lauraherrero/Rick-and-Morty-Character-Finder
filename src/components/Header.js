@@ -3,7 +3,7 @@ import RickMorty from '../images/Rick_and_Morty.png';
 
 const Header = () => {
   return <div className="header">
-    <img src={RickMorty} alt="Rick and Morty logo"/>
+    <img className="header__logo" src={RickMorty} alt="Rick and Morty logo"/>
   </div>
 }
 
