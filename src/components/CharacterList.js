@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const CharacterList = props => {
-  let value = props.value
+  let value = props.value.toLowerCase();
   return<ul className="container-list">
     {props.characterList
     .filter(character => value === '' || character.name.toLowerCase().includes(value))
