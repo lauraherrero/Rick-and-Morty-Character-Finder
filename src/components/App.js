@@ -55,7 +55,7 @@ class App extends React.Component {
                 handleInputSearch={this.handleInputSearch}
               />
               <CharacterList
-                CharacterList={this.state.characters}
+                characterList={this.state.characters}
                 value={this.state.value}
               />
             </Route>

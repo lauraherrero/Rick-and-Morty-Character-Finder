@@ -1,0 +1,14 @@
+.header{
+  width: 100%;
+  padding: 20px;
+  &__logo{
+    width: 100%;
+    @media all and (min-width: 768px){
+      width: 600px;
+      height: 200px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    margin: auto;
+  }
+}

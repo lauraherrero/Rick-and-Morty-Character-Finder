@@ -1,0 +1,6 @@
+.container-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-gap: 5px;
+  justify-content: center;	
+}

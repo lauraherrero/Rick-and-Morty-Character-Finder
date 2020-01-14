@@ -1,0 +1,20 @@
+.container-item{
+  padding: 10px;
+  margin:15px;
+  background-color: rgb(73, 9, 14);
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 300px;
+  &:hover{
+    background-image: linear-gradient(to bottom, #1a0912, #230b15, #2c0c16, #350b16, #3e0a14, #4f0a16, #600b17, #710c16, #900e1a, #b1121d, #d2171e, #f31e1e);
+    border: 2px solid black;
+  }
+}
+
+.img{
+  width: 100%;
+  &:hover{
+    border: 1px solid rgb(70, 68, 68);
+  }
+}
