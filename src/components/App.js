@@ -64,22 +64,22 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header/>
-          <Switch>
-            <Route path='/' exact>
-              <Filters
-                value={this.state.value}
-                handleInputSearch={this.handleInputSearch}
-                handleSelect={this.handleSelect}
-              />
-              <CharacterList
-                statusOpt={this.state.filters.status}
-                CharacterList={this.state.characters}
-                value={this.state.value}
-              />
-            </Route>
-            <Route path='/character/:id' render={this.renderDetail}
+        <Switch>
+          <Route path='/' exact>
+            <Filters
+              value={this.state.value}
+              handleInputSearch={this.handleInputSearch}
+              handleSelect={this.handleSelect}
             />
-          </Switch>
+            <CharacterList
+              statusOpt={this.state.filters.status}
+              CharacterList={this.state.characters}
+              value={this.state.value}
+            />
+          </Route>
+          <Route path='/character/:id' render={this.renderDetail}
+          />
+        </Switch>
       </div>
     );
   }
